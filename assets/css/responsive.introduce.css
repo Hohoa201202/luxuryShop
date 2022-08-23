@@ -1,0 +1,157 @@
+/* Mobile and Tablet */
+@media (max-width: 1023px) {
+    .bottom-key{
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        padding-bottom: 12px;
+    }
+}
+
+/* PC with min screen */
+@media (min-width: 1024px) and (max-width: 1239px) {
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .span1{
+        font-size: 3.3rem;
+    }
+
+    .address__item{
+        padding: 0 24px;
+        margin-bottom: 20px;
+    }
+
+    .itemm1{
+        width: 280px;
+    }
+
+    .maps{
+        margin-top: 16px;
+    }
+
+    .maps__item{
+        height: 400px;
+    }
+
+    .contact{
+        padding: 20px 12px;
+        font-size: 1.4rem;
+    }
+
+    .contact__item{
+        padding: 0 8px;
+    }
+
+    .contact__heading{
+        font-size: 1.8rem;
+    }
+
+    .container-product__item-btn{
+        font-size: 1.5rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .container__bre{
+        padding: 8px 0;
+    }
+
+    .vanban{
+        padding: 0 12px;
+    }
+
+    .p1{
+        font-size: 1.4rem;
+    }
+
+    .content-title h2,
+    .group-title h2{
+        font-size: 2.2rem;
+        line-height: 2rem;
+    }
+
+    .span1{
+        font-size: 2.4rem;
+        font-weight: 300;
+        padding: 12px 0;
+        margin: 0;
+    }
+
+    .top-key{
+        height: 135px;
+    }
+
+    .bottom-key{
+        margin-top: -64px;
+    }
+
+    .wrap-decs{
+        font-size: 1.4rem;
+        margin-top: -4px;
+    }
+
+    .itemm1{
+        text-align: center;
+        width: 160px;
+        font-weight: 300;
+        padding-bottom: 28px;
+    }
+
+    .anh11{
+        width: 120px;
+    }
+
+    .span3{
+        line-height: 1.6rem;
+    }
+
+    .button{
+        padding: 7px 0;
+        min-width: 120px;
+        font-weight: 300;
+        font-size: 1.4rem;
+    }
+
+    .address__item{
+        margin-bottom: 24px;
+    }
+
+    .address__item-icon{
+        font-size: 2rem;
+        top: 4px;
+    }
+
+    .maps{
+        margin-top: 0;
+    }
+
+    .maps__item{
+        height: 300px;
+    }
+
+    .address__item-text + .address__item-text{
+        margin-top: 8px;
+    }
+
+    .contact{
+        margin: 32px 0;
+        padding: 16px 8px;
+        font-size: 1.4rem;
+    }
+
+    .contact__item{
+        padding: 0;
+    }
+
+    .contact__heading{
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    .container-product__item-btn{
+        font-size: 1.4rem;
+    }
+}
